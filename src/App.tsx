@@ -1,8 +1,8 @@
 import { Canvas } from "@react-three/fiber";
-import HumanModel from "./components/HumanModel";
+import HumanModel from "components/HumanModel";
 import { Physics } from "@react-three/cannon";
 import React from "react";
-import Room from "./components/Room";
+import Room from "components/Room";
 
 const App: React.FC = () => {
   return (
