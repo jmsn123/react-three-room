@@ -13,7 +13,11 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./", // Ensure imports are resolved from the root directory
+    "paths": {
+      "*": ["src/*"] // Allow simplified imports from the src folder
+    }
   },
   "include": ["src"]
 }
