@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber";
-import HumanModel from "./components/HumanModl";
+import HumanModel from "./components/HumanModel";
 import { Physics } from "@react-three/cannon";
 import React from "react";
 import Room from "./components/Room";
