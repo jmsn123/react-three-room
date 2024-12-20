@@ -13,6 +13,7 @@ const App: React.FC = () => {
         <Physics>
           <Room />
           <HumanModel position={[1, 1, 0]} />
+          <HumanModel position={[1, 1, 0]} />
         </Physics>
       </Canvas>
     </div>
